@@ -1,0 +1,140 @@
+body {
+    background-image: url('static/porche.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+h2 {
+    color: rgb(239, 239, 239);
+}
+
+.logo-image {
+    border-radius: 4px;
+    margin-right: 11px;
+}
+
+.animation {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    transition: color 0.3s;
+    font-size: 18px; 
+    font-weight: 600; 
+}
+.animation:hover {
+    color: #007bff;
+}
+.bg-light {
+    background-size: cover;
+    background-position: center;
+}
+
+.custom-navbar {
+    padding: 0;
+    font-size: 14px;
+}
+
+.custom-navbar .nav-link {
+    padding: 0; 
+}
+
+.custom-navbar .navbar-nav {
+    margin: 0;
+}
+
+.product-card {
+    margin-bottom: 13px;
+}
+
+@media (min-width: 992px) {
+    .custom-navbar {
+        padding: 10px 0; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+        font-size: 16px; 
+    }
+    .custom-navbar .nav-link {
+        padding: 8px 15px;
+    }
+}
+
+.product-card {
+    min-width: 200px; 
+    margin-right: 15px;
+    flex: 0 0 auto; /* Чтобы карточки не сжимались */
+}
+.product-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.carousel-item img {
+    height: 450px; 
+    object-fit: cover;
+}
+
+.accordion .btn-link {
+    color: #007bff;
+    text-decoration: none; /* стандартное подчёркивание */
+}
+
+.accordion .btn-link:hover {
+    text-decoration: none; /* подчёркивание при наведении */
+}
+.accordion .btn-link:focus, .accordion .btn-link:active {
+    outline: none; /* обводка при нажатии */
+    box-shadow: none; /* тень при нажатии */
+    text-decoration: none;
+}
+
+.card-body {
+    overflow-x: auto;
+}
+.product-body {
+    width: 300px;
+    padding: 20px;
+
+}
+.accordion table {
+    min-width: 700px;
+}
+
+.accordion .card {
+    border-radius: 0;
+}
+.accordion .card-header {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.accordion .card-body {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.mb-4 {
+    color: rgb(72, 72, 72);
+}
+
+
+@media (max-width: 576px) {
+    .my-5 {
+        
+        padding: 10px;
+        border-radius: 8px;
+        
+    }
+    .form-container {
+        max-width: 600px; 
+        margin: 0 auto;
+        padding: 15px; 
+    }
+}
+
+.footer {
+    margin: 0;
+}
+
+video {
+    border-radius: 9px;
+}
